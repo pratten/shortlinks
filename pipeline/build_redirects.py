@@ -58,6 +58,14 @@ def main() -> int:
             <!DOCTYPE html>
             <html>
                 <head>
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVSDFRNW2X"></script>
+                    <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){{dataLayer.push(arguments);}}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-EVSDFRNW2X');
+                    </script>
                     <meta http-equiv="refresh" content="0; url={dest}" />
                     <link rel="canonical" href="{dest}" />
                     <title>Redirecting...</title>

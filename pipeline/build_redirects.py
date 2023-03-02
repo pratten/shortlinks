@@ -1,8 +1,9 @@
 import argparse
 import sys
 import os
-from textwrap import dedent
+import qrcode
 
+from textwrap import dedent
 from pathlib import Path
 from typing import List, Tuple
 
@@ -67,6 +68,13 @@ def main() -> int:
                 </body>
             </html>
             """))
+        
+        # Generate a QR code for the destination
+        qr = qrcode.make(dest)
+        
+        # Write the QR code to a file
+        qr.save(out_dir.joinpath("qr.png"))
+        
 
     return 0
 

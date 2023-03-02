@@ -1,0 +1,35 @@
+on: 
+  push:
+    branches:
+      - master
+
+name: Build and publish site
+jobs:
+  build-bundle-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: Install Python dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install python3-pip
+          sudo pip3 install -r ./pipeline/requirements.txt
+
+      - name: Build site
+        run: python3 ./pipeline/build_redirects.py links.txt
+        
+      - name: Disable Jekyll
+        run: sudo touch ./build/.nojekyll
+
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: build
+          # fqdn: short.pratten.ca
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

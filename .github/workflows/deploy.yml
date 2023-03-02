@@ -30,6 +30,6 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: build
-          # fqdn: short.pratten.ca
+          fqdn: short.pratten.ca
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

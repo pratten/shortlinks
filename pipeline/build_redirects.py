@@ -43,9 +43,8 @@ def main() -> int:
         os.system(f"rm -rf {args.output}")
     os.mkdir(args.output)
 
-    # Copy the 404 page and index
+    # Copy the 404 page
     os.system(f"cp {SCRIPT_PATH}/404.html {args.output}/404.html")
-    os.system(f"cp {SCRIPT_PATH}/index.html {args.output}/index.html")
 
     # Create files for each link
     for source, dest in redirects:
@@ -69,13 +68,21 @@ def main() -> int:
                 </body>
             </html>
             """))
-        
+
         # Generate a QR code for the destination
         qr = qrcode.make(dest)
-        
+
         # Write the QR code to a file
         qr.save(out_dir.joinpath("qr.png"))
-        
+
+    # Load the index, substitute in links, and write to output
+    index = open(SCRIPT_PATH.joinpath("index.html"), "r").read()
+    index = index.replace(
+        "<LINK_LIST>", "\n".join([
+            f"<li><a href='https://short.pratten.ca/{source}'>https://short.pratten.ca/{source}</a></li>"
+            for source, _ in redirects
+        ]))
+    open(args.output.joinpath("index.html"), "w").write(index)
 
     return 0
 

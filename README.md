@@ -5,3 +5,4 @@ To add a new short link, edit the [`links.txt`](./links.txt) file. Each line sho
 ```txt
 /short_link https://long/link/here
 ```
+ 

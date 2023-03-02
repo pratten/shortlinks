@@ -43,8 +43,9 @@ def main() -> int:
         os.system(f"rm -rf {args.output}")
     os.mkdir(args.output)
 
-    # Copy the 404 page
+    # Copy the 404 page and index
     os.system(f"cp {SCRIPT_PATH}/404.html {args.output}/404.html")
+    os.system(f"cp {SCRIPT_PATH}/index.html {args.output}/index.html")
 
     # Create files for each link
     for source, dest in redirects:

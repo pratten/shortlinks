@@ -4,3 +4,4 @@
 /5024/MERDs/RoboticsCommunicationsRefinedBrainstormingList https://docs.google.com/document/d/1UjWyo6RT_QY2IpMrZMIH_nfWXcj5TibGKFOk6z_DNYA/edit?usp=share_link
 /5024/MERDs/RoboticsRoboticsFeaturePlanForMarch9th https://docs.google.com/document/d/1soOBX29xkjn4YqSEnZ5TWejb7SFybZ0r2Ps8A-vvXzE/edit?usp=share_link
 /5024/agenda/2023-03-09 https://docs.google.com/document/d/1Y-QbmCGQYItxjqYL2txCjc4F1D7ZgIoQaArw_xwjXbU/edit?usp=share_link
+/5679/meeting-notes/2023-03-07 https://github.com/FRCGirlsOnFire5679/TeamWiki/blob/main/Communication/Internal/MeetingNotes/2023/03_March/2023-03-07.md

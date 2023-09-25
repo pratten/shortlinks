@@ -1,15 +1,4 @@
-/5024/agenda/2023-03-02 https://docs.google.com/document/d/1_gHfG2wUHV0NQF3HHjyE4dEZA4HH-CwggeMdge2a8Gc/edit?usp=sharing
 /5024/MERDs/VanessaVisitNotes https://docs.google.com/document/d/1lFod0acMBIlw1ulmwESG77AV9gODFGbdH0lT9-7zMyY/edit?usp=share_link
-/5024/MERDs/RoboticsCommunicationsFeaturePlanForMarch9th https://docs.google.com/document/d/11xjWhjBwVWQKAATk2RtC1JKaxEbK_y-5UZjS47P3Q9M/edit?usp=share_link
-/5024/MERDs/RoboticsCommunicationsRefinedBrainstormingList https://docs.google.com/document/d/1UjWyo6RT_QY2IpMrZMIH_nfWXcj5TibGKFOk6z_DNYA/edit?usp=share_link
-/5024/MERDs/RoboticsRoboticsFeaturePlanForMarch9th https://docs.google.com/document/d/1soOBX29xkjn4YqSEnZ5TWejb7SFybZ0r2Ps8A-vvXzE/edit?usp=share_link
-/5024/agenda/2023-03-09 https://docs.google.com/document/d/1Y-QbmCGQYItxjqYL2txCjc4F1D7ZgIoQaArw_xwjXbU/edit?usp=share_link
-/5679/meeting-notes/2023-03-07 https://github.com/FRCGirlsOnFire5679/TeamWiki/blob/main/Communication/Internal/MeetingNotes/2023/03_March/2023-03-07.md
-/5679/thank-you-notes/jennifer-mauldin https://docs.google.com/document/d/1xYQZ3fhO_aT9Ixng4huxpl7FItN4YL9FtP4ctVXDOC0/edit?usp=share_link
-/5024/pit-presentation-questions https://docs.google.com/document/d/1JkwpvUCVoivEJsbjJg-4_CpBQnwW17ZVpQ2qK6awTtk/edit?usp=share_link
-/5679/thank-you-cards/jennifer-mauldin https://www.canva.com/design/DAFdAlYVeQ4/qnaUW_c-JVg2PsMxUUxXTQ/edit?utm_content=DAFdAlYVeQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-/5024/MERDs/Communications https://drive.google.com/drive/folders/1-276T1w3qF1-z2T5Jsp-kXQUMjP-81Kz?usp=share_link
-/5024/MERDs/Robotics https://drive.google.com/drive/folders/1-52mbd-oie3IvzaT_qMpMiQdgCsVESvF?usp=share_link
-/5024/MERDs/Look-and-Feel https://drive.google.com/drive/folders/1TeUJF7XbUkUkGY7gJdR7uAPyF9s6O751?usp=share_link
 /5679/Outreach/2023-Planning https://docs.google.com/document/d/1M03Q8_86VNA9od6hH6EdvJ2H3kvREERL/edit?usp=share_link&ouid=106258571235154807980&rtpof=true&sd=true
 /5679/Outreach/2023-Outreach-Tracking https://docs.google.com/spreadsheets/d/1VsXEby4fRgcp29rSGyGBjEwpM7pY8Ti6/edit?usp=share_link&ouid=106258571235154807980&rtpof=true&sd=true
+
